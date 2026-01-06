@@ -4,8 +4,10 @@
     "": {
       "name": "xpub-generator",
       "dependencies": {
+        "@scure/base": "^2.0.0",
         "@scure/bip32": "^2.0.1",
         "@scure/bip39": "^2.0.1",
+        "@scure/btc-signer": "^2.0.1",
       },
     },
   },
@@ -19,5 +21,9 @@
     "@scure/bip32": ["@scure/bip32@2.0.1", "", { "dependencies": { "@noble/curves": "2.0.1", "@noble/hashes": "2.0.1", "@scure/base": "2.0.0" } }, "sha512-4Md1NI5BzoVP+bhyJaY3K6yMesEFzNS1sE/cP+9nuvE7p/b0kx9XbpDHHFl8dHtufcbdHRUUQdRqLIPHN/s7yA=="],
 
     "@scure/bip39": ["@scure/bip39@2.0.1", "", { "dependencies": { "@noble/hashes": "2.0.1", "@scure/base": "2.0.0" } }, "sha512-PsxdFj/d2AcJcZDX1FXN3dDgitDDTmwf78rKZq1a6c1P1Nan1X/Sxc7667zU3U+AN60g7SxxP0YCVw2H/hBycg=="],
+
+    "@scure/btc-signer": ["@scure/btc-signer@2.0.1", "", { "dependencies": { "@noble/curves": "~2.0.0", "@noble/hashes": "~2.0.0", "@scure/base": "~2.0.0", "micro-packed": "~0.8.0" } }, "sha512-vk5a/16BbSFZkhh1JIJ0+4H9nceZVo5WzKvJGGWiPp3sQOExeW+L53z3dI6u0adTPoE8ZbL+XEb6hEGzVZSvvQ=="],
+
+    "micro-packed": ["micro-packed@0.8.0", "", { "dependencies": { "@scure/base": "2.0.0" } }, "sha512-AKb8znIvg9sooythbXzyFeChEY0SkW0C6iXECpy/ls0e5BtwXO45J9wD9SLzBztnS4XmF/5kwZknsq+jyynd/A=="],
   }
 }
